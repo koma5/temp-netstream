@@ -50,12 +50,6 @@ void loop() {
   // read the analog in value:
   sensorValue = analogRead(analogInPin);            
      
-
-  // print the results to the serial monitor:
-  //Serial.print("rawADC = " );                       
-  //Serial.print(sensorValue);      
-  //Serial.print("\tcelsius = " );                       
-
   if (!client.connected()) {
     client.stop();
     delay(1000);
