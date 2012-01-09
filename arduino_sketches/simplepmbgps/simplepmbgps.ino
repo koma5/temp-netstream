@@ -1,5 +1,4 @@
 #include <SoftwareSerial.h>
-#include <String.h>
 
 SoftwareSerial GPS = SoftwareSerial(2,3);
 
