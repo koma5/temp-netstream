@@ -5,7 +5,7 @@ SoftwareSerial GPS = SoftwareSerial(2,3);
 void setup()
 {
   GPS.begin(4800);
-  Serial.begin(4800);
+  Serial.begin(9600);
 
 }
 
