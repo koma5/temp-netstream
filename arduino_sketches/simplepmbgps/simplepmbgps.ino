@@ -12,6 +12,7 @@ void setup()
 
 void loop()
 {
+  if (GPS.available()){
   Serial.write(GPS.read());
-
+  }
 }
